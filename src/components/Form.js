@@ -7,8 +7,12 @@ const Form = () => {
 
   const submitHandler = (event) => {
     event.preventDefault();
-
-    alert.show(value, "success");
+    if (value.trim()) {
+      alert.show(" The task was created", "success");
+      setValue("");
+    } else {
+      alert.show(" The name of the task must not be empty");
+    }
   };
 
   return (
