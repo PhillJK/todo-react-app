@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import Alert from "./components/Alert";
-import AlertState from "../context/alert/AlertState";
+import AlertState from "./context/alert/AlertState";
 
 const App = () => {
   return (
