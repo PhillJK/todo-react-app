@@ -70,4 +70,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 =======
 # todo-react-app
 Simple react todo-app
->>>>>>> 314308db3a83891b35520d26028b7e73f193f287
